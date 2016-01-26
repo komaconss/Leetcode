@@ -6,7 +6,7 @@ using namespace std;
 
 vector<int> twoSum(vector<int>& nums, int target)
 {
-	map<int,int> tmp;
+    map<int,int> tmp;
     size_t n = nums.size();
     for(int i = 0; i < n; ++i)
     {
